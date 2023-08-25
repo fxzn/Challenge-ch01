@@ -1,0 +1,280 @@
+:root {
+    --blue: #0D28A6;
+    --black: #010101;
+    --white: #ffffff;
+    --green: #5CB85F;
+    --background-home: #F1F3FF;
+    ;
+}
+
+body {
+    font-family: Helvetica;
+    background-color: var(--body);
+    width: min(100%, 9);
+}
+
+/* navbar */
+.navbar {
+    padding: 32px 0;
+    background-color: var(--background-home);
+}
+
+.nav-link {
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 18px;
+    color: var(--black);
+}
+
+
+.navbar .buttons-nav .btn-navbar {
+    font-size: 16px;
+    border: 2px solid var(--green);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    padding: 11px 17px;
+    background: var(--green);
+    font-size: 16px;
+    font-weight:600;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.navbar .buttons-nav .btn-navbar:hover {
+    background: transparent;
+    color: var(--green);
+}
+
+/* navbar */
+
+/* Start Home Section */
+section.home {
+    padding: 30px 0;
+    background-color: var(--background-home);
+}
+
+section.home .text {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 63px;
+    color: var(--black);
+    padding-top: 50px;
+}
+
+section.home .paragraf {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+    padding-top: 60px;
+}
+
+section.home .buttons {
+    padding-top: 1px;
+}
+
+section.home .buttons .btn {
+    font-size: 16px;
+    border: 2px solid var(--green);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    padding: 11px 17px;
+    background: var(--green);
+    font-size: 16px;
+    font-weight:600;
+    line-height: 24px;
+    color: var(--white);
+}
+
+section.home .buttons .btn:hover {
+    background: transparent;
+    color: var(--green);
+}
+
+.mercedes img {
+    padding-top: 100px;
+}
+/* Start Home Section */
+
+
+/* Services */
+section.our-services {
+    padding: 30px 0;
+}
+
+section.our-services h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: var(--black);
+}
+
+section.our-services p,
+section.our-services .list-item ul li {
+    font-size: 14x;
+    font-weight: 300;
+    line-height: 20px;
+    color: var(--black);
+}
+
+section.our-services .list-item ul {
+    padding: 0;
+}
+
+section.our-services .list-item ul li::before {
+    content: url("Foto/checklist.png");
+    margin-right: 10px;
+}
+
+section.our-services .list-item ul li {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+/* Services
+
+/* Slider */
+
+/* Slider */
+
+
+/* why-us */
+section.why-us {
+    padding: 30px 0;
+}
+
+section.why-us .text-area h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+section.why-us .text-area p {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+section.why-us .container .box-in-text  {
+    padding: 20px;
+}
+
+section.why-us .card {
+    height: 200px;
+}
+
+section.why-us .card .card-body .card-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section.why-us .card .card-body .card-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+/* why-us */
+
+/* testimonial */
+section.section-testimonial {
+    padding: 30px 0;
+}
+
+section.section-testimonial .owl-carousel {
+    padding-top: 50px; 
+}
+
+section.section-testimonial .testimonial-heading h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+section.section-testimonial .testimonial-heading p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+section.section-testimonial .card-testimonial {
+    background-color: var(--background-home);
+}
+
+section.section-testimonial .author-img {
+        width: 70px !important;
+        margin: 0 auto;
+        margin-top: 50px;
+}
+
+/* testimonial */
+
+/* Banner */
+section.banner {
+    padding: 30px 0;
+    margin: 100px 25px; 
+}
+
+section.banner .banner-blue {
+    background-color: var(--blue);
+}
+
+section.banner .banner-head {
+    color: var(--white);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+section.banner .banner-text {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+section.banner .btn-green {
+    font-size: 16px;
+    border: 2px solid var(--green);
+    border-radius: 6px;
+    padding: 11px 17px;
+    background: var(--green);
+    font-size: 16px;
+    font-weight:600;
+    line-height: 24px;
+    color: var(--white);
+}
+
+section.banner .btn-green:hover {
+    background: transparent;
+    color: var(--green);
+}
+/* Banner */
+
+/* FAQ */
+section.faq-section {
+    padding: 100px 0;
+}
+
+section.faq-section h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+section.faq-section p {
+    padding-top: 30px;
+}
+
+section.faq-section .faq-dropdown .accordion-item {
+    padding: 10px;
+}
+/* FAQ */
+
+/* footer */
+footer {
+    padding: 30px 0;
+}
+
+/* footer */
